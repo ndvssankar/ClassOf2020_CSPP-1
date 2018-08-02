@@ -1,0 +1,1 @@
+/Users/sankar/anaconda3/bin:/Users/sankar/perl5/perlbrew/bin:/Users/sankar/perl5/perlbrew/perls/perl-5.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Sublime Text.app/Contents/SharedSupport/bin
