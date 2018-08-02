@@ -5,7 +5,7 @@
 # This function takes in one number and returns one number.
 
 def main():
-    '''Function'''
+    '''This will adds two numbers and prints the result'''
     data = input()
     print(int(data[0])+int(data[3]))
 
