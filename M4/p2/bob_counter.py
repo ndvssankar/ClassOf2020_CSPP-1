@@ -10,7 +10,12 @@ def main():
     string = input()
     # the input string is in s
     # remove pass and start your code here
-    print(string.count("bob"))
+    count = 0
+    index = string.find("bob")
+    while index >= 0:
+        count = count + 1
+        index = string.find("bob", index+1)
+    print(count)
 
 if __name__ == "__main__":
     main()
