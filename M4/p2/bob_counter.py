@@ -6,11 +6,11 @@ For example, if s = 'azcbobobegghakl', then your program should print
 Number of times bob occurs is: 2'''
 
 def main():
-	''' Finds the number of occurances of the bob.'''
-	s = input()
-	# the input string is in s
-	# remove pass and start your code here
-	print(s.count("bob"))
+    ''' Finds the number of occurances of the bob.'''
+    string = input()
+    # the input string is in s
+    # remove pass and start your code here
+    print(string.count("bob"))
 
 if __name__ == "__main__":
-	main()
+    main()
