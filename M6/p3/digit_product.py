@@ -21,7 +21,7 @@ def main():
             rem = int_input % 10
             product = product * rem
             int_input = int_input // 10
-        if flag == True:
+        if flag:
             print(-product)
         else:
             print(product)
