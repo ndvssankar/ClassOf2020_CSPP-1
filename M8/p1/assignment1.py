@@ -5,17 +5,16 @@
 # This function takes in one number and returns one number.
 
 
-def factorial(n):
+def factorial(number):
     '''
     n is positive Integer
 
     returns: a positive integer, the factorial of n.
     '''
-    # Your code here
-    if n == 1 or n == 0:
+    if number == 1 or number == 0:
         return 1
     else:
-        return n * factorial(n-1)
+        return number * factorial(number-1)
 
 
 
