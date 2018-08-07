@@ -16,26 +16,35 @@ def getPrimes():
             primes.append(i)
     return primes
 
+
+
+dic = {}
+def calc():
+    for i in range(9, 500000, 2):
+        count = 0
+        k = 0
+        prime = primes[k]
+        count = 0
+        if i in primes:
+            continue
+        while prime < i:
+            j = 1
+            val = prime+2*(j**2)
+            while val <= i:
+                val = prime+(2*(j**2))
+                if val == i:
+                    count = count + 1
+                    break
+                j = j + 1
+            k = k + 1
+            prime = primes[k]
+        print(i, count)
+        dic[i] = count
+        # print(dic)
+    return dic
+
 primes = getPrimes()
+calc()
 test_cases = int(input())
 for i in range(test_cases):
-    n = int(input())
-    count = 0
-    k = 2
-    prime = primes[k]
-    count = 0
-    if n % 2 == 0:
-        print(count)
-        continue
-    while prime < n:
-        j = 1
-        val = prime+j**2*2
-        while val <= n:
-            val = prime+(2*j**2)
-            if val == n:
-                count = count + 1
-                break
-            j = j + 1
-        k = k + 1
-        prime = primes[k]
-    print(count)
+    print(dic[int(input())])
