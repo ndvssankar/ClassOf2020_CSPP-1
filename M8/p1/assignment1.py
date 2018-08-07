@@ -1,4 +1,4 @@
-# Exercise: Assignment-1
+'''Exercise: Assignment-1'''
 # Write a Python function, factorial(n),
 # that takes in one number and returns the factorial of given number.
 
@@ -21,7 +21,8 @@ def factorial(number):
 def main():
     '''This is a main function'''
     number = input()
+
     print(factorial(int(number)))
 
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
